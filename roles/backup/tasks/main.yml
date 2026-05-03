@@ -1,0 +1,21 @@
+- name: Varmuuskopioitavat polut
+  set_fact:
+    source_path: "/etc/hosts"
+    target_path: "/home/hosts-backup" 
+
+- name: Luo hakemisto kohdepalvelimelle
+  file:
+    path: "{{ target_path }}"
+    state: directory
+    mode: '0755' # oikeudet kohdepalvelimelle hakemiston luomista varten
+
+
+- name: Kopioi valitut tiedot kohdepalvelimelle
+  copy:
+    src: "{{ source_path }}"
+    dest: "{{ target_path }}/"
+
+
+
+
+    

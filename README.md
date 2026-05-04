@@ -35,7 +35,7 @@ ssh-copy-id ~/.ssh/id_ed25519.pub käyttäjä@localhost
 ````
 
 
-ja mahdollistaa automatisoidun SSH‑yhteyden.
+Tämä mahdollistaa automatisoidun SSH‑yhteyden.
 
 Testaa:  
 `ssh localhost`  - toimii ilman salasanaa.

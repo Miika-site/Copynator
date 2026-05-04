@@ -124,6 +124,12 @@ Aja playbook:
 ansible-playbook serverbackup.yml
 ````
 
+## Projektin lopputulos
+
+<img width="1148" height="594" alt="4" src="https://github.com/user-attachments/assets/4dfc5513-7f28-4cfb-8bf2-d2463834ed45" />
+
+
+
 ## Kehittäjät 
 - Kalle Kyröhonka
 - Miika Vänttinen

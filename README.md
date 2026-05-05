@@ -21,10 +21,17 @@ Copynator/
 ````
 
 ## Käyttöönotto
+
+Lataa projektin zip-tiedosto
+```
+https://github.com/Miika-site/Copynator/releases/tag/copynator1.1
+```
+
 ### Projektin kloonaus
 ````
 git clone git@github.com:Miika-site/Copynator
 ````
+Note: kloonaaminen vaatii kehittäjiltä toimia.
 
 ### SSH‑avaimen käyttöönotto
 

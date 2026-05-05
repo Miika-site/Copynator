@@ -31,7 +31,7 @@ git clone git@github.com:Miika-site/Copynator
 Jotta Ansible voi toimia ilman salasanoja, lisää lähdepalvelimen julkinen avain ja kopioi se kohdepalvelimelle:
 ````
 ssh-keygen
-ssh-copy-id ~/.ssh/id_ed25519.pub käyttäjä@localhost
+ssh-copy-id localhost
 ````
 
 
@@ -64,10 +64,10 @@ hosts.ini
 ansible_python_interpreter=/usr/bin/python3
 
 [source]
-source ansible_host=10.0.2.15 ansible_user=rage2 # lähdepalvelin - valitse oikea IP
+source ansible_host=localhost # lähdepalvelin - valitse oikea IP
 
 [target]
-target ansible_host=127.0.0.1 # kohdepalvelin - vaihdetaan oikean palvelimen IP
+target ansible_host=localhost # kohdepalvelin - vaihdetaan oikean palvelimen IP
 ````
 
 ansible.cfg

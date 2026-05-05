@@ -1,7 +1,7 @@
 - name: Varmuuskopioitavat polut
   set_fact:
-    source_path: "/etc/hosts"
-    target_path: "/home/hosts-backup" 
+    source_path: "/etc/hosts"  #backup otetaan
+    target_path: "/home/hosts-backup" #backup tehdään
 
 - name: Luo hakemisto kohdepalvelimelle
   file:
@@ -15,7 +15,3 @@
     src: "{{ source_path }}"
     dest: "{{ target_path }}/"
 
-
-
-
-    

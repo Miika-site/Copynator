@@ -1,3 +1,10 @@
 - hosts: source
+<<<<<<< HEAD
   roles:
     - backup
+=======
+  become: yes
+  roles:
+    - backup
+
+>>>>>>> 27907c1 (Changes to hosts.ini)

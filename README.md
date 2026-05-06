@@ -2,7 +2,7 @@
 Tämä projekti sisältää Ansible‑automaation, joilla varmuuskopioidaan valittuja tietoja lähdepalvelimelta kohdepalvelimelle. 
 
 ## Disclaimer
-Copynator on opiskeluprojekti, jonka tarkoituksena on harjoitella Ansible‑automaatioita. Projekti toimii oppimis‑, testi‑ ja demo‑ympäristöissä (esim. virtuaalikoneet), mutta ei ole tuotantokelpoinen ratkaisu sellaisenaan. Tuotantokäyttö vaatisi mm. laajempaa virheenkäsittelyä, lokien hallintaa, tietoturvakäytäntöjä, palautustestausta ja laajempaa konfiguroitavuutta. Copynator on siis tarkoitettu nimenomaan oppimiseen ja automaation perusperiaatteiden esittelyyn.
+Copynator on opiskeluprojekti, jonka tarkoituksena on harjoitella Ansible‑automaatioita. Projekti toimii oppimis‑, testi‑ ja demo‑ympäristöissä (esim. virtuaalikoneet), mutta ei ole tuotantokelpoinen ratkaisu sellaisenaan. Tuotantokäyttö vaatisi mm. laajempaa virheenkäsittelyä, lokien hallintaa, tietoturvakäytäntöjä, palautustestausta ja laajempaa konfiguroitavuutta. Copynator on siis automaation perusperiaatteiden esittelyyn.
 
 Projektin tavoitteet: 
 - luoda yksinkertainen, toistettava ja luotettava tapa ottaa säännöllisiä varmuuskopioita
